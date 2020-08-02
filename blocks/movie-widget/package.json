@@ -1,0 +1,31 @@
+{
+  "name": "movie-widget",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Movie Widget",
+  "author": "Michael Møller",
+  "license": "GPL-2.0-or-later",
+  "keywords": [
+    "WordPress",
+    "block"
+  ],
+  "homepage": "https://github.com/djaevlen/movie-gutenberg-widget",
+  "repository": "git+https://github.com/djaevlen/movie-gutenberg-widget.git",
+  "bugs": {
+    "url": "https://github.com/djaevlen/movie-gutenberg-widget/issues"
+  },
+  "main": "build/index.js",
+  "devDependencies": {
+    "@wordpress/scripts": "^9.0.0"
+  },
+  "scripts": {
+    "build": "wp-scripts build",
+    "format:js": "wp-scripts format-js",
+    "lint:js": "wp-scripts lint-js",
+    "packages-update": "wp-scripts packages-update",
+    "start": "wp-scripts start"
+  },
+  "dependencies": {
+    "react-select": "^3.1.0"
+  }
+}

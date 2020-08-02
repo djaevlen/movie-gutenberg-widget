@@ -1,0 +1,66 @@
+/**
+ * Note that these styles are loaded *before* editor styles, so that
+ * editor-specific styles using the same selectors will take precedence.
+ */
+
+.wp-block-mgw-widget .wrapper {
+  display: flex;
+  border: 1px solid #c3c0c0;
+  margin-top: 15px;
+}
+
+.wp-block-mgw-widget .details {
+  flex: 0 0 30%;
+  padding: 15px 15px 15px 15px;
+}
+
+.wp-block-mgw-widget .details img {
+  width: 100%;
+  height: auto;
+}
+
+.wp-block-mgw-widget .details dl {
+  font-size: 12px;
+  font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+    Helvetica, sans-serif;
+}
+
+.wp-block-mgw-widget .details dt {
+  font-weight: bold;
+  font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+    Helvetica, sans-serif;
+}
+
+.wp-block-mgw-widget .details dd {
+  margin-left: 0px;
+}
+
+.wp-block-mgw-widget .content {
+  flex: 0 0 70%;
+  padding: 15px 15px 15px 15px;
+}
+
+.wp-block-mgw-widget .content h4 {
+  margin-top: 0px !important;
+  margin-bottom: 10px !important;
+}
+
+.wp-block-mgw-widget .content h6 {
+  margin-top: 0px !important;
+}
+
+.wp-block-mgw-widget .content .overview {
+  font-size: 16px !important;
+  font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+    Helvetica, sans-serif;
+}
+
+.wp-block-mgw-widget .details a {
+  font-size: 16px !important;
+  text-decoration: none;
+}
+
+#react-select-2-input {
+  border-color: transparent;
+  box-shadow: none;
+}
